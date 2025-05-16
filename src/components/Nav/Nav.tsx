@@ -33,7 +33,7 @@ const navLinks: Link[] = [
 const Nav = () => {
   return (
     <>
-      <img src="" />
+      <img src="src/assets/LittleLemonLogo.jpg" />
       <ul>
         {navLinks.map((link, index) => (
           <li key={index}>
