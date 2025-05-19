@@ -1,11 +1,16 @@
-type CardProps = {
+export type TestimonialProps = {
   rating: string;
   name: string;
   review: string;
   reviwerImg: string;
 };
 
-const TestimonialCard = ({ rating, name, review, reviwerImg }: CardProps) => {
+const TestimonialCard = ({
+  rating,
+  name,
+  review,
+  reviwerImg,
+}: TestimonialProps) => {
   return (
     <>
       <div className="testimonial-card">
