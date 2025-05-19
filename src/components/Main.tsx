@@ -1,3 +1,4 @@
+import About from './About';
 import Button from './Button';
 import Highlights from './Highlights/Highlights';
 import Testimonials from './Testimonials/Testimonials';
@@ -17,6 +18,9 @@ const Main = () => {
       </main>
       <Highlights></Highlights>
       <Testimonials></Testimonials>
+      <section>
+        <About />
+      </section>
     </>
   );
 };

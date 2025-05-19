@@ -9,6 +9,20 @@ const Specials: CardProps[] = [
     img: "image",
     button: "Order Delivery",
   },
+  {
+    title: "Greek Salad",
+    price: "$5.99",
+    description: "QUero dancarcomvoce",
+    img: "image",
+    button: "Order Delivery",
+  },
+  {
+    title: "Greek Salad",
+    price: "$5.99",
+    description: "QUero dancarcomvoce",
+    img: "image",
+    button: "Order Delivery",
+  },
 ];
 const Highlights = () => {
   return (

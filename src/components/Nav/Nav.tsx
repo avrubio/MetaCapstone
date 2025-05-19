@@ -3,7 +3,7 @@ interface Link {
   url: string;
 }
 
-const navLinks: Link[] = [
+export const navLinks: Link[] = [
   {
     label: "home",
     url: "/",
