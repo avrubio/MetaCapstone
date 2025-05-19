@@ -1,6 +1,6 @@
 import Button from '../Button';
 
-type CardProps = {
+export type CardProps = {
   title: string;
   price: string;
   description: string;

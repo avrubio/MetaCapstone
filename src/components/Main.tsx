@@ -1,4 +1,6 @@
 import Button from './Button';
+import Highlights from './Highlights/Highlights';
+import Testimonials from './Testimonials/Testimonials';
 
 const Main = () => {
   return (
@@ -13,6 +15,8 @@ const Main = () => {
         </p>
         <Button label="Reserve a table" />
       </main>
+      <Highlights></Highlights>
+      <Testimonials></Testimonials>
     </>
   );
 };
