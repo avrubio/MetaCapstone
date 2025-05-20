@@ -32,8 +32,8 @@ export const navLinks: Link[] = [
 
 const Nav = () => {
   return (
-    <>
-      <img src="src/assets/LittleLemonLogo.jpg" />
+    <nav className="navigationBar">
+      <img src="src/assets/LittleLemonLogo.jpg" className="logo" />
       <ul>
         {navLinks.map((link, index) => (
           <li key={index}>
@@ -41,7 +41,7 @@ const Nav = () => {
           </li>
         ))}
       </ul>
-    </>
+    </nav>
   );
 };
 
