@@ -62,6 +62,12 @@
 /* Hero Section */
 .heroSection {
   display: flex;
+  margin-top: 8rem;
+  justify-content: center;
+  column-gap: 2rem;
+  .heroSection_blurb {
+    width: 24rem;
+  }
   img {
     height: 400px;
     width: 400px;
