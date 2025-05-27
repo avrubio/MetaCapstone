@@ -5,12 +5,12 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
+// .logo {
+//   height: 6em;
+//   padding: 1.5em;
+//   will-change: filter;
+//   transition: filter 300ms;
+// }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -39,4 +39,32 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Navigation Bar */
+.navigationBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ul {
+    display: flex;
+    list-style: none;
+    justify-items: space-between;
+    li {
+      margin: 0 10px;
+    }
+  }
+  .logo {
+    height: 5rem;
+  }
+}
+
+/* Hero Section */
+.heroSection {
+  display: flex;
+  img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
 }
