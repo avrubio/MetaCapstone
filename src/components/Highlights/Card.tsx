@@ -12,7 +12,7 @@ const Card = ({ title, price, img, description, button }: CardProps) => {
   return (
     <>
       <div className="card">
-        <img src={img} alt="" />
+        <img src={img} alt="" style={{ height: "200px" }} />
         <p>{price}</p>
         <h2>{title}</h2>
         <p>{description}</p>

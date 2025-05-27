@@ -6,27 +6,27 @@ const Specials: CardProps[] = [
     title: "Greek Salad",
     price: "$5.99",
     description: "QUero dancarcomvoce",
-    img: "image",
+    img: "./src/assets/greekSalad.jpg",
     button: "Order Delivery",
   },
   {
     title: "Greek Salad",
     price: "$5.99",
     description: "QUero dancarcomvoce",
-    img: "image",
+    img: "./src/assets/greekSalad.jpg",
     button: "Order Delivery",
   },
   {
     title: "Greek Salad",
     price: "$5.99",
     description: "QUero dancarcomvoce",
-    img: "image",
+    img: "./src/assets/greekSalad.jpg",
     button: "Order Delivery",
   },
 ];
 const Highlights = () => {
   return (
-    <>
+    <section className="foodCards">
       {Specials.map((eachSpecial, index) => (
         <Card
           key={index}
@@ -36,7 +36,7 @@ const Highlights = () => {
           img={eachSpecial.img}
         />
       ))}
-    </>
+    </section>
   );
 };
 
